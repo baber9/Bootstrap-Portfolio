@@ -1,0 +1,172 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("../images/circles-light.png");
+}
+
+h1, h2, h3, h4, h5{
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+/* Navbar Styles */
+.navbar-inverse {
+    background-color: #527388;
+    border-color: rgba(0, 0, 0, 0.125);
+}
+
+.navbar-inverse .navbar-brand {
+    color: #D4D375;
+    font-family: 'Raleway', sans-serif;
+    font-size: 34px;
+    
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: black;
+}
+
+.navbar-inverse .navbar-nav>.active>a {
+    background-color: #1E303B;
+    color: #9d9d9d;
+    font-weight: bold;
+}
+
+@media (min-width: 768px) {
+    .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+        margin-left: -30px;
+    }
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: black;
+}
+
+
+
+/* About Me Styles */
+#aboutMeImg {
+    float: left;
+    padding: 8px 15px 8px 8px;
+}
+
+#bio {
+    margin-top: 15px;
+    margin-left: 10px;
+    padding-right: 20px;
+}
+
+p#bio {
+    line-height: 30px;
+}
+
+#bio-col {
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    margin-bottom: 50px;
+    padding: 20px 10px 10px 30px;
+}
+
+blockquote {
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    border-color: #956969;
+}
+
+div.panel-body img {
+    margin: auto;
+}
+
+
+.page-header {
+    border-color: #527388;
+}
+
+/* Connect with Me style */
+.panel-default>.panel-heading {
+    background-color: #D4D375;
+    color: black;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+
+/* Portfolio Styles */
+.card {
+    width: 250px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    margin: 20px auto 30px auto;
+    background-color: #ffffff;
+}
+
+img.card-top {
+    width: 248px;
+}
+
+.card-block {
+    padding: 1.25rem;
+}
+
+.card-text {
+    height: 120px;
+}
+
+/* Form Style */
+.btn-primary, .btn-default {
+    background-color: #527388;
+    border-color: #527388;
+    color: #ffffff;
+}
+
+/* Add space before "Connect with Me" when collapesed */
+form {
+    margin-bottom: 50px;
+}
+
+.last-item {
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Sticky Footer Styles */
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 150px;
+}
+.footer {
+  display: block;
+    position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 100px;
+  background-color: #4c5255;
+  border-top: 5px solid #D4D375;
+}
+
+.text-muted {
+    color: lightgray;
+    clear: both;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        border-radius: 0;
+    }
+}
